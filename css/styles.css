@@ -1,0 +1,233 @@
+
+
+  @media screen and (max-width: 480px) {
+  .img {
+    padding-top: 10%;
+    padding-bottom: 4%;
+  }
+
+  .container-fluid{
+    padding:2.5%;
+  }
+
+  /* .btn-color{
+    background-color: #ff4500;
+  }
+
+  .btn-color:hover{
+    color: #ff4500;
+  } */
+  .navbar-toggler{
+    width:20%;
+    height:2%;
+  }
+
+  /*Header*/
+  .header-container{
+    background-color: #ff4500;
+  }
+  .illustration{
+    width: 400px;
+  }
+
+  .heading,.body-title,.how{
+    font-size: 250%;
+    padding-top: 5%;
+    padding-left: 9%;
+    color: #191970;
+    padding-bottom: 5%;
+    font-weight: 700;
+  }
+
+
+
+  .body-title{
+    font-size: 200%;
+    width:80%;
+    padding-left: 15%;
+  }
+
+  .para-1{
+    width: 310px;
+    padding-left: 40px;
+    color:white;
+    word-spacing: 1px;
+  }
+
+  .para-2{
+    width: 310px;
+    padding-left: 40px;
+    color:gray;
+    word-spacing: 1px;
+  }
+
+  .para-2{
+    padding-left: 35px;
+  }
+
+  .lastSentence, .para-2-2, .para-2-3, .para-2-1,.para-2-4,.policy{
+    white-space: nowrap;
+  }
+
+  .para-2-1{
+    padding-left: 100px;
+  }
+
+  .head-btn{
+    padding-left: 30%;
+    width: 315.2px;
+    padding-bottom: 5%;
+  }
+
+  .right-body{
+    padding-top: 5%;
+  }
+
+  /*Body*/
+.side {
+  margin: 0;
+  display: inline-block;
+}
+.main {
+  float: right;
+  padding-right: 5%;
+  color:#191970;
+}
+
+.subHeading{
+  width: 290px;
+}
+
+.row1{
+  padding-bottom: 5%;
+}
+
+.body-paragraph{
+  padding-bottom: 5%;
+}
+
+.subHeading2{
+  width: 290px;
+  white-space: nowrap;
+}
+
+.subHeading3{
+  padding-left: 3%;
+  white-space: nowrap;
+}
+
+/*Testimonials*/
+h4{
+  color: #191970;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.Review{
+  padding-left: 30%;
+  width:196px;
+  margin: 35px;
+}
+
+.name{
+  text-align: center;
+}
+
+.testimonial-review{
+  padding-left: 12%;
+  padding-right: 10%;
+}
+
+.carousel-item{
+
+background-image: -webkit-linear-gradient(bottom, grey, grey 70%, transparent 70%, transparent 100%)
+}
+
+#testimonial-btn,#btn-review{
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 37%;
+}
+
+
+
+.how{
+  padding-right: 2%;
+  color:white;
+  padding-bottom: 7%;
+}
+
+.howTo{
+  padding-top: 7%;
+  background: #ff4500;
+}
+
+.howTo-1{
+  padding-left: 4%;
+}
+
+.howTo-2{
+  padding-left: 25%;
+}
+
+
+/*Footer*/
+
+.footer{
+  padding-top: 7%;
+}
+
+  .input-group{
+  padding-right:15%;
+
+}
+
+#rounded{
+  border-radius: 50px;
+}
+
+.input-group-btn{
+  padding-left: 10%;
+
+}
+
+.checkButton{
+  height:50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+
+
+.icon{
+  padding-top: 3%;
+  padding-left: 4%;
+}
+.social-media{
+  margin: 4%;
+}
+
+.img-footer{
+  margin-left: 27%;
+}
+
+.Copyright{
+  padding-top: 7%;
+  padding-bottom: 7%;
+  text-align: center;
+  color: grey;
+}
+
+.list{
+  padding-top: 7%;
+}
+li{
+  list-style-type: none;
+}
+
+.second{
+  padding-left: 20%;
+}
+
+
+}
