@@ -1,0 +1,102 @@
+@media only screen and (max-width:768px){
+  /*Header*/
+  header .navbar-nav .nav-item{
+    padding-left: 5em;
+    white-space: nowrap;
+  }
+
+  header .navbar-toggler{
+    margin-right: 20px;;
+  }
+
+  header .navbar-nav .form-inline .btn{
+    margin-left: 65px;
+  }
+
+  header .title{
+    display:table;
+    padding-left: 0;
+    margin-right: 5%;
+  }
+
+  header .row .col-md-7{
+    padding-left: 8%;
+  }
+
+  header .row .col-md-7 .better,  header .row .col-md-7 .everyone,.section-1 .row .body-title .about {
+    white-space: nowrap;
+  }
+
+  header .row .col-md-5 .illustration{
+    width: 320px;
+    height: 300px;
+  }
+
+  /*section1*/
+  .para-2,.body-title{
+    width:100%;
+    margin-left: 0;
+  }
+
+  .section-1 .container .row {
+    padding: 0;
+    right:110px;
+    width:800px;
+  }
+
+  .one{
+    white-space: nowrap;
+  }
+
+  /*section2*/
+  .section-2 .team{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-2 .carousel-inner{
+    width:18rem;
+  }
+
+  .section-2 .col-12 {
+    padding-top: 7%;
+
+
+  }
+
+  /*footer*/
+  footer .row .col-md-4 .col-md-6 .footer-ul{
+  padding-left: 0;
+  padding-top: 8px;
+  }
+
+  footer .row .col-md-4 .form-control{
+    padding: 5% 5% 5% 5%;
+    width:200px;
+  }
+
+  footer .row .col-md-4 .input-group-prepend{
+    padding:5px 0 0 0;
+    width:180px;
+  }
+
+  .wrapper {
+    padding-top:15%;
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-areas:"logo footer-nav footer-secondary-nav box"
+    "icon six Copyright" ;
+    grid-template-rows: 100px 250px;
+    grid-template-columns: 150px 150px 150px 200px;
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+
+  }
+  .Copyright{
+    padding-left: 50px;
+  }
+
+}

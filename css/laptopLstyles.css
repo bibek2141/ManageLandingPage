@@ -1,0 +1,176 @@
+li{
+  list-style-type: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*Header*/
+header,section{
+  overflow-x: hidden;
+}
+
+header .nav-item:first-child{
+  padding-left: 7em;
+}
+header .nav-item{
+  padding: 0.9em;
+}
+
+header .img{
+  padding-left: 10em;
+}
+
+header .form-inline{
+  padding-right:15em;
+}
+
+header .row .col-md-7 .heading{
+  color:#191970;
+}
+
+header .row .col-md-7{
+  padding-top: 11%;
+  padding-right: 17%;
+}
+
+header .row .col-md-7 .para-1{
+  width:320px;
+}
+
+header .row .col-md-7 .form-row{
+  padding-top: 5%;
+  width:280px;
+  white-space: nowrap;
+}
+
+header .row .col-md-7 .btn,header .navbar-nav .btn , .section-1 .row .col-md-6 .btn
+, .section-2 .col-12 .btn, footer .col .btn{
+  border-radius: 30px;
+  color:white;
+  background-color: #ff4500;
+  border-color: #ff4500;
+}
+
+
+header .row .col-md-5{
+  padding-left: 0;
+  padding-top: 9%;
+}
+
+header{
+  padding-bottom: 5%;
+}
+
+
+/*Section 1*/
+.section-1 .row .col-md-6 .body-left .body-title{
+  color: #191970;
+  padding-right: 15%;
+}
+
+.section-1 .row .col-md-6 .body-left .para-2{
+  padding-right: 38%;
+}
+
+.section-1 .col-md-12 .body-paragraph{
+  padding-left: 27%;
+}
+
+.section-1{
+  padding-bottom: 5%;
+}
+
+.section-1 .row .col-md-6 .body-paragraph{
+  padding-left: 29%;
+}
+
+/*section 2*/
+.section-2 .row .col-md-12 .title-section2{
+  padding-bottom: 5%;
+  color: #191970;
+  font-size:400%;
+
+}
+
+.section-2 .card{
+  text-align: center;
+  width:18rem;
+  margin-top: 10vmin;
+}
+
+.section-2 .carousel-inner .Review{
+  padding-top: 5%;
+}
+
+.section-2{
+  padding-bottom: 5%;
+}
+
+/*Section-3*/
+.section-3 .col-12 .btn{
+  border-radius: 30px;
+  color:#ff4500;
+  background-color: white;
+  border-color: white;
+
+}
+
+.section-3{
+  background-color: #ff4500;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.section-3 .row .col-md-7 .how{
+  color:white;
+  padding-right: 30%;
+}
+
+.section-3 .row .col-md-7 .how .today{
+  padding-right: 37%;
+}
+
+/*footer*/
+
+
+.footer-ul{
+
+  line-height: 2;
+  color:white;
+}
+
+footer{
+  background-color: black;
+}
+
+ .icon,.Copyright{
+   color:white;
+ }
+
+
+
+
+footer .form-control{
+  border-radius: 30px;
+
+}
+
+footer .input-group-prepend{
+  padding-top:12px;
+}
+
+
+.wrapper {
+  padding-top:5%;
+  padding-left: 5%;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-areas:"logo footer-nav footer-secondary-nav box"
+  "icon six Copyright"  ;
+  grid-template-rows: 100px 200px;
+  grid-template-columns: 300px 300px 300px 400px;
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+}

@@ -1,0 +1,78 @@
+@media only screen and (max-width:1024px){
+  header .img{
+    padding-left: 2.5%;
+    padding-top: 1em;
+  }
+
+  header .nav-item{
+    padding-top: 1em;
+    padding-left: 0;
+  }
+
+  header .nav-item:first-child{
+    padding-left: 4em;
+  }
+
+  header .form-inline{
+    padding-right:5em;
+  }
+
+  header .row .col-md-7 .heading .build{
+    white-space: nowrap;
+    padding-left: 0;
+  }
+
+  header .row .col-md-7  .para-1{
+    padding-left: 0;
+  }
+
+  header .row .col-md-5 .illustration{
+    width:500px;
+  }
+
+  /*section-1*/
+  .section-1 .row .col-md-6 .body-left .body-title{
+    width:550px;
+  }
+
+  .section-1 .row .col-md-6 .body-left .para-2{
+    padding-top: 4%;
+    padding-right: 25%;
+    padding-left: 0;
+  }
+
+  h5{
+    white-space: nowrap;
+    width:200px;
+  }
+
+ .body-paragraph{
+    padding-left:140px;
+    width:470px;
+    margin-left: 25px;
+  }
+
+  /*How To*/
+  .section-3 .container .col-md-7 .how{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+  /*Footer*/
+  .wrapper {
+    padding-top:5%;
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-areas:"logo footer-nav footer-secondary-nav box"
+    "icon six Copyright" ;
+    grid-template-rows: 100px 200px;
+    grid-template-columns: 200px 200px 200px 300px;
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+  }
+
+
+
+}
