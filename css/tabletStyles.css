@@ -1,102 +1,164 @@
-@media only screen and (max-width:768px){
+@media only screen and (min-width:768px){
   /*Header*/
-  header .navbar-nav .nav-item{
-    padding-left: 5em;
-    white-space: nowrap;
+  header .navbar{
+    padding-top: 5rem;
+  }
+
+  header .navbar-nav {
+    margin-left: 40px;
+  }
+
+  header .navbar-nav .nav-link{
+
+    margin-left: 40px;
+
+  }
+
+  header .container-fluid .img{
+    margin-left: 5rem;
   }
 
   header .navbar-toggler{
-    margin-right: 20px;;
+    margin-right: 60px;
   }
 
-  header .navbar-nav .form-inline .btn{
+  header  .form-inline .btn{
     margin-left: 65px;
   }
 
-  header .title{
-    display:table;
-    padding-left: 0;
-    margin-right: 5%;
+  header .row .col-md-6 .heading{
+    padding-top: 2rem;
   }
 
-  header .row .col-md-7{
-    padding-left: 8%;
-  }
-
-  header .row .col-md-7 .better,  header .row .col-md-7 .everyone,.section-1 .row .body-title .about {
-    white-space: nowrap;
-  }
-
-  header .row .col-md-5 .illustration{
-    width: 320px;
-    height: 300px;
-  }
-
-  /*section1*/
-  .para-2,.body-title{
-    width:100%;
+  header .container .row .form-row .btn{
     margin-left: 0;
   }
 
-  .section-1 .container .row {
+  /*section1*/
+
+  main .section-1 .container .row .body-title {
     padding: 0;
-    right:110px;
-    width:800px;
+    width:300px;
   }
 
-  .one{
-    white-space: nowrap;
+  main .section-1 .container .row .para-2{
+    width:350px;
   }
 
+  .section-1 .container1 .side #body-paragraph{
+    width:300px ;
+  }
   /*section2*/
-  .section-2 .team{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+  .section-2 .container .row .title-section2{
+    padding-left: 10rem;
+    font-size: 4vw;
+    width: 450px;
   }
-
-  .section-2 .carousel-inner{
-    width:18rem;
+  .section-2 .carousel{
+    padding-left: 0;
+    width:15rem;
   }
 
   .section-2 .col-12 {
     padding-top: 7%;
-
-
   }
 
-  /*footer*/
-  footer .row .col-md-4 .col-md-6 .footer-ul{
-  padding-left: 0;
-  padding-top: 8px;
+  .wrapper{
+  grid-auto-rows: 150px 200px 200px;
+  grid-template-columns:300px 300px !important ;
   }
 
-  footer .row .col-md-4 .form-control{
-    padding: 5% 5% 5% 5%;
-    width:200px;
+  .wrapper div:nth-child(8) {
+   margin-left: 2rem !important;
   }
 
-  footer .row .col-md-4 .input-group-prepend{
-    padding:5px 0 0 0;
-    width:180px;
+}
+
+@media only screen and  (min-width:992px){
+  header .img{
+    padding-top: 4px;
+    padding-left: 10em;
+  }
+
+  header .form-inline{
+    padding-right:3rem;
+  }
+  header .nav-item:first-child{
+    padding-left: 4em;
+  }
+  header .nav-item{
+    width:80px;
+    margin-left: 0;
+  }
+
+  header .container{
+    padding-top: 2rem;
+  }
+
+  .subHeading{
+    font-size: 1.5em;
+  }
+  .navbar .nav-item{
+    font-size: 1.1em;
+  }
+
+  .section-2 .container .row .title-section2{
+    width: 650px;
+  }
+
+   .section-2 .carousel{
+    padding-left: 0.5rem;
+  }
+
+  .section-2 .carousel .carousel-inner{
+    padding-top: 5rem;
+    width: 300px;
+    padding-left: 2rem;
+  }
+
+  .section-2 .carousel .carousel-inner .card-img-top{
+    padding-top: 2rem;
   }
 
   .wrapper {
-    padding-top:15%;
-    padding-left: 5%;
-    display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
-    grid-template-areas:"logo footer-nav footer-secondary-nav box"
-    "icon six Copyright" ;
-    grid-template-rows: 100px 250px;
-    grid-template-columns: 150px 150px 150px 200px;
-    grid-gap: 10px;
-    grid-auto-rows: 100px;
+  grid-template-columns: repeat(4, 1fr)!important;
+  grid-auto-rows: 150px 200px;
+  grid-template-columns:200px 200px 200px 200px ;
+  }
 
+  .wrapper div:nth-child(8) {
+   grid-column: 4 !important;
+   grid-row: 2/2 !important ;
+   padding-top:0 !important;
   }
-  .Copyright{
-    padding-left: 50px;
+
+  .wrapper div:nth-child(4) {
+     grid-column: 4 !important;
+     grid-row: 1/2 !important ;
+     padding-top: 1rem !important;
   }
+
+}
+
+@media only screen and (min-width: 1200px){
+  header .container-fluid .img{
+    margin-left: 7rem;
+  }
+
+  header .navbar-nav .nav-link{
+    margin-left: 120px;
+  }
+
+  /* .title-section2{
+    padding-left: 30px;
+  } */
+
+  .section-2 .col-12 .btn{
+    margin-left: 5px;
+  }
+  .section-3 .container .head{
+    padding-top: 24px;
+  }
+
 
 }
